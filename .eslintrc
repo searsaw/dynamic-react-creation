@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "document": true,
+    "window": true
+  },
+  "rules": {
+    "arrow-parens": ["error", "as-needed", { "requireForBlockBody": false }],
+    "react/jsx-filename-extension": 0,
+    "react/prop-types": 0
+  }
+}
